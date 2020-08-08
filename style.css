@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@300&family=Squada+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 body{
     background-color: black;
 }
@@ -7,28 +7,40 @@ body{
 .topnav{
     background-color: white;
     position: fixed;
+
     width: 100%;
-    height: 56px;
+    height: 94px;
     left: 0;
-    top: 0;
-    flex-wrap: wrap;
+    top: 0px;
+
   }
 
   .topnav a img{
     float: right;
-    height: 40px;
-    margin-right: 50px;
-    margin-top: 15px;
+    width: 300px;
+    height: 51px;
+    position: absolute;
+ 
+    margin-top: 22px;
+    margin-right: 53px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    right: 53px;
+    bottom: 21px;
  
   }
 
  label #btn,
  label #cancel{
      color: white;
-     height: 30px;
+     width: 16px;
+     height: 10px;
      position: absolute;
-     top: 60px;
-     left: 5px;
+
+     top: 91px;
+     left: 10px;
      cursor: pointer;
      display: none;
 
@@ -39,30 +51,40 @@ body{
  }
   .sidenav ul {
     
-  width: 120px;
-  position: fixed;
-  top: 60px;
+  width: 90px;
+  position: absolute;
+
+  margin-top: 147px;
+  margin-left: 19px;
+  right: 1315px;
   background-color: black;
-  overflow-x: hidden;
-  padding-left: 0px;
-  flex-wrap: wrap;
   z-index: -1;
+}
+
+.sidenav  ul li{
+  padding-left: 0px;
+  margin-left: 0px;
+
+  margin: 0 15px;
+  display: block;
 }
 
 .sidenav  ul li a {
   padding: 10px 8px 16px 50px;
+  line-height: 50px;
   text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
   font-size: 15px;
   font-weight: bold;
   color: white;
-  display: block;
-  flex-wrap: wrap;
 }
 
   .line{
-    border-left: solid white;
+    border-left: 1px solid white;
     position: fixed;
-    left: 150px;
+
+    margin-left: 125px;
     top: 0px;
     height: 100%;
     z-index: -9;
@@ -72,47 +94,90 @@ body{
 
   .headline h2{
     color: white;
-    position:fixed;
-    left: 200px;
-    top: 65px;
+    position: absolute;
+
+    height: 38px;
+    width: 137px;
+    margin-left: 174px;
+    margin-top: 147px;
+    padding-top: 10px;
+    padding-left: 0px;
     font-family: 'Squada One', cursive; 
-    font-size: 30px;
+    font-size: 36px;
     line-height: 38px;
-    flex-wrap: wrap;
 
   }
   p{
     color: white;
-    position: fixed;
-    left: 200px;
-    top:115px;
-    width: 30%;
+    position: absolute;
+
+    margin-left: 174px;
+    margin-top:189px;
+    padding-top: 6px;
+    padding-left: 0px;
+    width: 433px;
+    height: 50px;
     font-family: 'Open Sans', sans-serif;
+    font-style: normal;
     font-size: 16px;
     font-weight: normal;
-    flex-wrap: wrap;
+    line-height: 20px;
     
   }
-.quote h1{
-    font-size: 5cm;
+.quote p{
+    height: 422px;
+    font-family: 'Anton', sans-serif;
+    float: right;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 288px;
+    color: white;
+    position: absolute;
+    margin-left: 429px;
+    margin-top: 317px;
+    padding-top: 50px;
+    line-height: 422px;
+    z-index: -1;
+  }
+  .quote1 p{
+    font-size: 288px;
+    font-style: normal;
     font-family: 'Anton', sans-serif;
     float: right;
     color: white;
-    position:fixed;
-    left: 50%;
-    top:110px;
-    line-height: 5cm;
-    flex-wrap: wrap;
+    position: absolute;
+    margin-top:317px;
+    padding-top: 50px;
+    margin-left: 856px;
+    padding-right: 2px;
+    line-height: 422px;
+    z-index: -1;
   }
-  .quote h2{
-    font-size: 5cm;
+  .quote2 p{
+    font-size: 288px;
     font-family: 'Anton', sans-serif;
     float: left;
     color: white;
-    position:fixed;
-    top: 255px;
-    left: 200px;
-    flex-wrap: wrap;
+    position: absolute;
+    margin-top:609px;
+    margin-left: 174px;
+    padding-top: 50px;
+    line-height: 422px;
+    z-index: -1;
+  }
+  .quote3 p{
+    font-size: 288px;
+    font-family: 'Anton', sans-serif;
+    float: left;
+    color: white;
+    position: absolute;
+    margin-top:609px;
+    margin-left: 429px;
+    padding-top: 50px;
+    padding-left: 2px;
+    line-height: 422px;
+    z-index: -1;
+    
   }
 
   .about h1{
